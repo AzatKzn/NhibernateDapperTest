@@ -4,7 +4,9 @@ using Dapper;
 using NhibernateDapperTest;
 
 /*
- * Тестирование запросов к БД, через Nhibernate и Dapper 
+ * Тестирование запросов к БД, через Nhibernate и Dapper
+ * Необходимо указать ConnectionString
+ * Тестировать через методы NhibernateFoo и DapperFoo
  */
 
 public class Program
