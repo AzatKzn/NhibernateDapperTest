@@ -1,6 +1,14 @@
-﻿namespace NhibernateDapperTest;
+﻿using System.Data;
+using Npgsql;
 
-public class DapperTest
+namespace NhibernateDapperTest;
+
+public static class DapperTest
 {
-    
+    public static IDbConnection GetConnection()
+    {
+        var connection = new NpgsqlConnection(Program.ConnectionString);
+        connection.Open();
+        return connection;
+    }
 }

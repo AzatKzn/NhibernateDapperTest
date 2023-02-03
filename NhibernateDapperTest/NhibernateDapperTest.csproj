@@ -5,12 +5,13 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>NhibirnateDapperTest</RootNamespace>
+        <RootNamespace>NhibernateDapperTest</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Dapper" Version="2.0.123" />
       <PackageReference Include="NHibernate" Version="5.3.11" />
+      <PackageReference Include="Npgsql" Version="5.0.15" />
     </ItemGroup>
 
 </Project>
